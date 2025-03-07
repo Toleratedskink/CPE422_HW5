@@ -1,0 +1,18 @@
+Jeremy Burke
+HW5
+Problem 3
+
+1) String a = "hello";
+This statement declares and initializes a std::string object a with the value "hello"
+
+2) string b(temp);
+This initializes the string b using string character array temp
+
+3) string c = a + b;
+This concatenates the string of a with the string of c, the + operator overloaded the std::string class
+
+4) if (string("cat") < string("dog"));
+this if statement compares the two std::string objects lexicographically. The condition is true since cat comes before dog alphabetically
+
+5) while(getline(ss, token, ' '))
+This extracts tokens from the input stream ss into token using a space as a delimiter. getline reads from the input stream until it encounters the delimiter or reaches the end.
